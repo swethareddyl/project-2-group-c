@@ -1,0 +1,65 @@
+<div class="curtain container-fluid px-0">
+        <div class="row mx-0">
+                <div class="banner col-12 header px-0" id="banner">
+                        <img src="/images/banner.jpg" class="img-fluid w-100">
+                </div>
+        </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+      <div class="col col-md-3" id="vaultboy">
+          <div class="row">
+            <div class="d-flex justify-content-center">
+                <img src="/images/vaultboy.jpg" class="img-fluid w-50 vaultboy">   
+            </div>
+          </div>
+
+      </div>
+
+        <div class="col-md-5 text-light align-self-center animate__animated animate__fadeIn animate__fast" id="d-board">
+                <div class="row align-items-start">
+                        <div class="card bg-dark pt-2">
+                                <h3>Add New Item:</h3><hr>
+                                <div class="d-flex justify-content-around">
+                                        <a class="pb-4" href="/dashboard/add-weapon#w-form"><button class="itemBtn btn-lg btn-outline-dark" >Add Weapon</button></a>
+
+                                        <a class="pb-4" href="/dashboard/add-armor#a-form"><button class="itemBtn btn-lg btn-outline-dark" >Add Armor</button></a>
+
+                                </div>
+                        </div>
+                        <div class="pb-5"></div>
+                        <div class="card bg-dark pt-2">
+                                <h3 class="">View or Edit Inventory:</h3><hr>
+                                <div class="d-flex justify-content-center py-4">
+                                        <a href="/inventory"><button class="itemBtn btn-lg btn-outline-dark">Inventory</button></a>
+                                </div>
+                        </div>
+                        <div class="pb-5"></div>                
+
+                </div>
+
+                
+                <div class="row justify-content-between">
+                        <div class="col-md-4 card bg-dark p-3">
+                                <h6 class="text-light">Search by item:</h6>
+                                <input type="text" placeholder="Search..." id="itemSearchBar">
+                        </div>
+                        <div class="col-md-4 card bg-dark p-3">
+                                <h6 class="text-light">Search by user:</h6>
+                        <input type="text" placeholder="Search..." id="userSearchBar">
+                        </div>
+                </div>
+
+                <div class="d-flex align-self-end pt-5">
+                        <button type="button" class="logout" id="logout">Logout</button>   
+                </div>
+
+        </div>
+
+  </div>
+</div>
+
+<script src="/js/logout.js"></script>
+<script src="/js/search.js"></script>
+<script src="/js/userSearch.js"></script>

@@ -1,0 +1,210 @@
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-md-3" id="vaultboy">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/vaultboy.jpg" class="img-fluid w-50 vaultboy">   
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 text-light align-self-center animate__animated animate__fadeIn animate__fast">
+                <h2 class="text-light text-center" id="w-form">Add New Weapon</h2><hr>
+                <div class="card bg-dark p-4">
+                    
+                    <form class="container new-weapon-form text-light">
+                        <h4 class="text-center">Modifiers</h4><hr>
+                        <div class="row pb-2">
+                            <label class="col-4" for="main-effect">Main Effect</label>
+                            <select class="col" id="main-effect" name="main-effect">
+                                <option value="Anti-Armor">Anti-Armor</option>
+                                <option value="Assassin's">Assassin's</option>
+                                <option value="Berserker's">Berserker's</option>
+                                <option value="Bloodied">Bloodied</option>
+                                <option value="Double">Double</option>
+                                <option value="Executioner's">Executioner's</option>
+                                <option value="Exterminator's">Exterminator's</option>
+                                <option value="Furious">Furious</option>
+                                <option value="Ghoul Slayer's">Ghoul Slayer's</option>
+                                <option value="Hunter's">Hunter's</option>
+                                <option value="Instigating">Instigating</option>
+                                <option value="Junkie's">Junkie's</option>
+                                <option value="Medic's">Medic's</option>
+                                <option value="Mutant's">Mutant's</option>
+                                <option value="Mutant Slayer's">Mutant Slayer's</option>
+                                <option value="Nocturnal">Nocturnal</option>
+                                <option value="Quad">Quad</option>
+                                <option value="Stalker's">Stalker's</option>
+                                <option value="Suppressor's">Suppressor's</option>
+                                <option value="Troubleshooter's">Troubleshooter's</option>
+                                <option value="Two-Shot">Two-Shot</option>
+                                <option value="Vampire's">Vampire's</option>
+                                <option value="Zealot's">Zealot's</option>
+                            </select>
+                        </div>
+                            
+
+
+                        <div class="row pb-2">
+                            <label class="col-4" for="major-effect">Major Effect</label>
+                            <select class="col" id="major-effect" name="major-effect">
+                                <option disable selected value> -- Select a modifier: -- </option>
+                                <option value="Bashing damage increased by 40%">Bashing damage increased by 40%</option>
+                                <option value="+50% limb damage">+50% limb damage</option>
+                                <option value="Bullets explode for area damage">Bullets explode for area damage</option>
+                                <option value="+10% damage while aiming">+10% damage while aiming</option>
+                                <option value="V.A.T.S. critical shots do +50% damage">V.A.T.S. critical shots do +50% damage</option>
+                                <option value="40% faster swing speed">40% faster swing speed</option>
+                                <option value="40% more power attack damage">40% more power attack damage</option>
+                                <option value="25% faster fire rate">25% faster fire rate</option>
+                                <option value="Reflects 50% of melee damage back while blocking">Reflects 50% of melee damage back while blocking</option>
+                                <option value="+33% V.A.T.S. hit chance">+33% V.A.T.S. hit chance</option>
+                            </select>
+                        </div>
+
+                        <div class="row pb-2">
+                            <label class="col-4" for="minor-effect">Minor Effect</label>
+                            <select class="col" id="minor-effect" name="minor-effect">
+                                <option disable selected value> -- Select a modifier: -- </option>
+                                <option value="+1 Agility">+1 Agility</option>
+                                <option value="Take 15% less damage while blocking">Take 15% less damage while blocking</option>
+                                <option value="Take 40% less damage while power attacking">Take 40% less damage while power attacking</option>
+                                <option value="+1 Endurance">+1 Endurance</option>
+                                <option value="90% reduced weight">90% reduced weight</option>
+                                <option value="Your V.A.T.S. critical meter fills 15% faster">Your V.A.T.S. critical meter fills 15% faster</option>
+                                <option value="Faster movement speed while aiming">Faster movement speed while aiming</option>
+                                <option value="+1 Perception">+1 Perception</option>
+                                <option value="15% faster reload">15% faster reload</option>
+                                <option value="+250 Damage Resistance while reloading">+250 Damage Resistance while reloading</option>
+                                <option value="+50 Damage Resistance while aiming">+50 Damage Resistance while aiming</option>
+                                <option value="+1 Strength">+1 Strength</option>
+                                <option value="25% less V.A.T.S. Action Point cost">25% less V.A.T.S. Action Point cost</option>
+                            </select>
+                        </div>
+                        <h4 class="text-center pt-4">Weapon</h4><hr>
+
+                        <div class="row justify-content-between pb-2">
+                            <label class="col-4" for="weapon-type">Weapon Type</label>
+                            <select class="col-4 align-self-end" id="weapon-type" name="weapon-type">
+                                <option value=".44 Pistol">.44 Pistol</option>
+                                <option value="50 Cal Machine Gun">50 Cal Machine Gun</option>
+                                <option value="10mm Pistol">10mm Pistol</option>
+                                <option value="10mm Submachine Gun">10mm Submachine Gun</option>
+                                <option value="Assault Rifle">Assault Rifle</option>
+                                <option value="Assaultron Blade">Assaultron Blade</option>
+                                <option value="Auto Grenade Launcher">Auto Grenade Launcher</option>
+                                <option value="Baseball Bat">Baseball Bat</option>
+                                <option value="Bear Arm">Bear Arm</option>
+                                <option value="Black Powder Pistol">Black Powder Pistol</option>
+                                <option value="Black Powder Rifle">Black Powder Rifle</option>
+                                <option value="Board">Board</option>
+                                <option value="Bone Club">Bone Club</option>
+                                <option value="Bone Hammer">Bone Hammer</option>
+                                <option value="Bow">Bow</option>
+                                <option value="Bowie Knife">Bowie Knife</option>
+                                <option value="Boxing Glove">Boxing Glove</option>
+                                <option value="Broadsider">Broadsider</option>
+                                <option value="Chinese Officer Sword">Chinese Officer Sword</option>
+                                <option value="Combat Knife">Combat Knife</option>
+                                <option value="Combat Rifle">Combat Rifle</option>
+                                <option value="Combat Shotgun">Combat Shotgun</option>
+                                <option value="Compound Bow">Compound Bow</option>
+                                <option value="Crossbow">Crossbow</option>
+                                <option value="Cryolator">Cryolator</option>
+                                <option value="Cultist Blade">Cultist Blade</option>
+                                <option value="Cultist Dagger">Cultist Dagger</option>
+                                <option value="Deathclaw Gauntlet">Deathclaw Gauntlet</option>
+                                <option value="Death Tambo">Death Tambo</option>
+                                <option value="Double-barrel Shotgun">Double-barrel Shotgun</option>
+                                <option value="The Dragon">The Dragon</option>
+                                <option value="Fat Man">Fat Man</option>
+                                <option value="Fire Axe">Fire Axe</option>
+                                <option value="The Fixer">The Fixer</option>
+                                <option value="Flamer">Flamer</option>
+                                <option value="Gamma Gun">Gamma Gun</option>
+                                <option value="Gatling Gun">Gatling Gun</option>
+                                <option value="Gatling Laser">Gatling Laser</option>
+                                <option value="Gatling Plasma">Gatling Plasma</option>
+                                <option value="Gauss Rifle">Gauss Rifle</option>
+                                <option value="Golf Club">Golf Club</option>
+                                <option value="Grognak's Axe">Grognak's Axe</option>
+                                <option value="Guitar Sword">Guitar Sword</option>
+                                <option value="Handmade Rifle">Handmade Rifle</option>
+                                <option value="Harpoon Gun">Harpoon Gun</option>
+                                <option value="Hatchet">Hatchet</option>
+                                <option value="Hunting Rifle">Hunting Rifle</option>
+                                <option value="Knuckles">Knuckles</option>
+                                <option value="Laser Pistol">Laser Pistol</option>
+                                <option value="Laser Rifle">Laser Rifle</option>
+                                <option value="Lead Pipe">Lead Pipe</option>
+                                <option value="Lever Action Rifle">Lever Action Rifle</option>
+                                <option value="Light Machine Gun">Light Machine Gun</option>
+                                <option value="M79 Grenade Launcher">M79 Grenade Launcher</option>
+                                <option value="Machete">Machete</option>
+                                <option value="Meat Hook">Meat Hook</option>
+                                <option value="Minigun">Minigun</option>
+                                <option value="Missile Launcher">Missile Launcher</option>
+                                <option value="Mole Miner Gauntlet">Mole Miner Gauntlet</option>
+                                <option value="Mr. Handy Buzz Blade">Mr. Handy Buzz Blade</option>
+                                <option value="Multi-purpose Axe">Multi-purpose Axe</option>
+                                <option value="Pickaxe">Pickaxe</option>
+                                <option value="Pipe Bolt-Action Pistol">Pipe Bolt-Action Pistol</option>
+                                <option value="Pipe Pistol">Pipe Pistol</option>
+                                <option value="Pipe Revolver">Pipe Revolver</option>
+                                <option value="Pipe Rifle">Pipe Rifle</option>
+                                <option value="Pipe Wrench">Pipe Wrench</option>
+                                <option value="Pitchfork">Pitchfork</option>
+                                <option value="Plasma Pistol">Plasma Pistol</option>
+                                <option value="Plasma Rifle">Plasma Rifle</option>
+                                <option value="Pole Hook">Pole Hook</option>
+                                <option value="Pool Cue">Pool Cue</option>
+                                <option value="Power Fist">Power Fist</option>
+                                <option value="Pump Action">Pump Action Shotgun</option>
+                                <option value="Radium Rifle">Radium Rifle</option>
+                                <option value="Railway Rifle">Railway Rifle</option>
+                                <option value="Revolutionary Sword">Revolutionary Sword</option>
+                                <option value="Ripper">Ripper</option>
+                                <option value="Rolling Pin">Rolling Pin</option>
+                                <option value="Salvaged Assaultron Head">Salvaged Assaultron Head</option>
+                                <option value="Security Baton">Security Baton</option>
+                                <option value="Sheepsquatch Club">Sheepsquatch Club</option>
+                                <option value="Sheepsquatch Staff">Sheepsquatch Staff</option>
+                                <option value="Shepherd's Crook">Shepherd's Crook</option>
+                                <option value="Shishkebab">Shishkebab</option>
+                                <option value="Shovel">Shovel</option>
+                                <option value="Sickle">Sickle</option>
+                                <option value="Single Action Revolver">Single Action Revolver</option>
+                                <option value="Ski Sword">Ski Sword</option>
+                                <option value="Sledgehammer">Sledgehammer</option>
+                                <option value="Spear">Spear</option>
+                                <option value="Submachine Gun">Submachine Gun</option>
+                                <option value="Super Sledge">Super Sledge</option>
+                                <option value="Switchblade">Switchblade</option>
+                                <option value="The Tenderizer">The Tenderizer</option>
+                                <option value="Tesla Rifle">Tesla Rifle</option>
+                                <option value="Tire Iron">Tire Iron</option>
+                                <option value="Ultracite Gatling Laser">Ultracite Gatling Laser</option>
+                                <option value="Ultracite Laser Pistol">Ultracite Laser Pistol</option>
+                                <option value="Ultracite Laser Rifle">Ultracite Laser Rifle</option>
+                                <option value="Walking Cane">Walking Cane</option>
+                                <option value="War Drum">War Drum</option>
+                                <option value="Western Revolver">Western Revolver</option>
+                            </select>
+                        </div>
+
+                        <div class="row justify-content-between pb-2">
+                            <label class="col-4" for="caps-value">Caps Value</label>
+                            <input class="col-4" type="number" id="caps-value" name="caps-value" min="1">
+                        </div>
+                        <div class="row justify-content-center">
+                            <button type="submit" class="col col-xl-3 itemBtn mt-3 mx-3 rounded btn-lg btn-outline-dark">Add Weapon</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="/js/addWeapon.js"></script>

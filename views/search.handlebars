@@ -1,0 +1,51 @@
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Main Effect</th>
+            <th scope="col">Major Effect</th>
+            <th scope="col">Minor Effect</th>
+            <th scope="col">Item Type</th>
+            <th scope="col">Caps Value</th>
+            <th scope="col">Username</th>
+            <th scope="col">Platform</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#if weapons.length}}
+            {{#each weapons as |weapon|}}
+                <tr>
+                    <td>{{mainEffect}}</td>
+                    <td>{{majorEffect}}</td>
+                    <td>{{minorEffect}}</td>
+                    <td>{{itemType}}</td>
+                    <td>{{capsValue}}</td>
+                    <td>{{user.username}}</td>
+                    <td>{{user.platform}}</td>
+                    <td><button type="button" class="contactBtn" data-id={{id}} data-type="weapons" email={{user.email}} username={{user.username}}>Contact Seller</button></td>
+                </tr>
+            {{/each}}
+        {{else}}
+            <h6 class="pb-4 has-text-centered is-italic text-light">No weapons were found with that search term.</h6>
+        {{/if}}
+        {{#if armor.length}}
+            {{#each armor}}
+                <tr>
+                    <td>{{mainEffect}}</td>
+                    <td>{{majorEffect}}</td>
+                    <td>{{minorEffect}}</td>
+                    <td>{{itemType}}</td>
+                    <td>{{capsValue}}</td>
+                    <td>{{user.username}}</td>
+                    <td>{{user.platform}}</td>
+                    <td><button type="button" class="contactBtn" data-id={{id}} data-type="armor" email={{user.email}} username={{user.username}}>Contact Seller</button></td>
+                </tr>
+            {{/each}}
+        {{else}}
+            <h6 class="pb-4 has-text-centered is-italic text-light">No armor was found with that search term.</h6>
+        {{/if}}
+    </tbody>
+</table>
+
+<script src="/js/delete.js"></script>
+<script src="/js/contact.js"></script>

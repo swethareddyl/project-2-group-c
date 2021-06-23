@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS vault_db;
+
+CREATE DATABASE vault_db;

@@ -1,0 +1,205 @@
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col col-md-3" id="vaultboy">
+                <div class="row">
+                    <div class="d-flex justify-content-center">
+                        <img src="/images/vaultboy.jpg" class="img-fluid w-50 vaultboy">   
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-5 text-light align-self-center animate__animated animate__fadeIn animate__fast">
+                <h2 class="text-light text-center" >Add New Armor</h2><hr>
+                <div class="card bg-dark p-4">
+
+
+                    <form class="container new-armor-form text-light" id="a-form">
+                        <h4 class="text-center">Modifiers</h4><hr>                            
+                        <div class="row pb-2">
+                            <label class="col-4" for="main-effect">Main Effect</label>
+                            <select class="col" id="main-effect" name="main-effect">
+                                <option value="Assassin's">Assassin's</option>
+                                <option value="Auto Stim">Auto Stim</option>
+                                <option value="Bolstering">Bolstering</option>
+                                <option value="Chameleon">Chameleon</option>
+                                <option value="Cloaking">Cloaking</option>
+                                <option value="Exterminator's">Exterminator's</option>
+                                <option value="Ghoul Slayer's">Ghoul Slayer's</option>
+                                <option value="Hunter's">Hunter's</option>
+                                <option value="Life Saving">Life Saving</option>
+                                <option value="Mutant's">Mutant's</option>
+                                <option value="Mutant Slayer's">Mutant Slayer's</option>
+                                <option value="Nocturnal">Nocturnal</option>
+                                <option value="Regenerating">Regenerating</option>
+                                <option value="Troubleshooter's">Troubleshooter's</option>
+                                <option value="Unyielding">Unyielding</option>
+                                <option value="Vanguard's">Vanguard's</option>
+                                <option value="Weightless">Weightless</option>
+                                <option value="Zealot's">Zealot's</option>
+                            </select>
+                        </div>
+
+                        <div class="row pb-2">
+                            <label class="col-4" for="major-effect">Major Effect</label>
+                            <select class="col" id="major-effect" name="major-effect">
+                                <option disable selected value> -- Select a modifier: -- </option>
+                                <option value="+1 Agility">+1 Agility</option>
+                                <option value="+25% Environmental Disease Resistance">+25% Environmental Disease Resistance</option>
+                                <option value="+1 Charisma">+1 Charisma</option>
+                                <option value="+1 Endurance">+1 Endurance</option>
+                                <option value="+25 Radiation Resistance">+25 Radiation Resistance</option>
+                                <option value="+1 Intelligence">+1 Intelligence</option>
+                                <option value="+1 Luck">+1 Luck</option>
+                                <option value="+1 Perception">+1 Perception</option>
+                                <option value="+25 Poison Resistance">+25 Poison Resistance</option>
+                                <option value="Increases action point refresh speed">Increases action point refresh speed</option>
+                                <option value="+1 Strength">+1 Strength</option>
+                            </select>
+                        </div>
+
+                        <div class="row pb-2">
+                            <label class="col-4" for="minor-effect">Minor Effect</label>
+                            <select class="col" id="minor-effect" name="minor-effect">
+                                <option disable selected value> -- Select a modifier: -- </option>
+                                <option value="Reduces falling damage by 50%">Reduces falling damage by 50%</option>
+                                <option value="Reduces damage while blocking by 15%">Reduces damage while blocking by 15%</option>
+                                <option value="75% chance to reduce damage by 15% while sprinting">75% chance to reduce damage by 15% while sprinting</option>
+                                <option value="Grants the ability to breathe underwater">Grants the ability to breathe underwater</option>
+                                <option value="50% more durability than normal">50% more durability than normal</option>
+                                <option value="Become harder to detect while sneaking">Become harder to detect while sneaking</option>
+                                <option value="Ammo weight reduced by 20%">Ammo weight reduced by 20%</option>
+                                <option value="Food, drink, and chem weights reduced by 20%">Food, drink, and chem weights reduced by 20%</option>
+                                <option value="Junk item weights reduced by 20%">Junk item weights reduced by 20%</option>
+                                <option value="Receive 15% less limb damage">Receive 15% less limb damage</option>
+                                <option value="Weapon weights reduced by 20%">Weapon weights reduced by 20%</option>
+                                <option value="75% chance to reduce damage by 15% while standing still">75% chance to reduce damage by 15% while standing still</option>
+                                <option value="Increase size of sweet-spot while picking locks">Increase size of sweet-spot while picking locks</option>
+                            </select>
+                        </div>
+                        <h4 class="text-center pt-4">Armor</h4><hr>
+
+                        <div class="row justify-content-between pb-2">
+                            <label class="col-4" for="armor-type">Armor Type</label>
+                            <select class="col-4 align-self-end" id="armor-type" name="armor-type">
+                                <option value="Wood Chest Piece">Wood Chest Piece</option>
+                                <option value="Wood Left Arm">Wood Left Arm</option>
+                                <option value="Wood Right Arm">Wood Right Arm</option>
+                                <option value="Wood Left Leg">Wood Left Leg</option>
+                                <option value="Wood Right Leg">Wood Right Leg</option>
+                                <option value="Raider Chest Piece">Raider Chest Piece</option>
+                                <option value="Raider Left Arm">Raider Left Arm</option>
+                                <option value="Raider Right Arm">Raider Right Arm</option>
+                                <option value="Raider Left Leg">Raider Left Leg</option>
+                                <option value="Raider Right Leg">Raider Right Leg</option>
+                                <option value="Sturdy Raider Chest Piece">Sturdy Raider Chest Piece</option>
+                                <option value="Sturdy Raider Left Arm">Sturdy Raider Left Arm</option>
+                                <option value="Sturdy Raider Right Arm">Sturdy Raider Right Arm</option>
+                                <option value="Sturdy Raider Left Leg">Sturdy Raider Left Leg</option>
+                                <option value="Sturdy Raider Right Leg">Sturdy Raider Right Leg</option>
+                                <option value="Heavy Raider Chest Piece">Heavy Raider Chest Piece</option>
+                                <option value="Heavy Raider Left Arm">Heavy Raider Left Arm</option>
+                                <option value="Heavy Raider Right Arm">Heavy Raider Right Arm</option>
+                                <option value="Heavy Raider Left Leg">Heavy Raider Left Leg</option>
+                                <option value="Heavy Raider Right Leg">Heavy Raider Right Leg</option>
+                                <option value="Trapper Chest Piece">Trapper Chest Piece</option>
+                                <option value="Trapper Left Arm">Trapper Left Arm</option>
+                                <option value="Trapper Right Arm">Trapper Right Arm</option>
+                                <option value="Trapper Left Leg">Trapper Left Leg</option>
+                                <option value="Trapper Right Leg">Trapper Right Leg</option>
+                                <option value="Forest Scout Chest Piece">Forest Scout Chest Piece</option>
+                                <option value="Forest Scout Left Arm">Forest Scout Left Arm</option>
+                                <option value="Forest Scout Right Arm">Forest Scout Right Arm</option>
+                                <option value="Forest Scout Left Leg">Forest Scout Left Leg</option>
+                                <option value="Forest Scout Right Leg">Forest Scout Right Leg</option>
+                                <option value="Urban Scout Chest Piece">Urban Scout Chest Piece</option>
+                                <option value="Urban Scout Left Arm">Urban Scout Left Arm</option>
+                                <option value="Urban Scout Right Arm">Urban Scout Right Arm</option>
+                                <option value="Urban Scout Left Leg">Urban Scout Left Leg</option>
+                                <option value="Urban Scout Right Leg">Urban Scout Right Leg</option>
+                                <option value="Leather Chest Piece">Leather Chest Piece</option>
+                                <option value="Leather Left Arm">Leather Left Arm</option>
+                                <option value="Leather Right Arm">Leather Right Arm</option>
+                                <option value="Leather Left Leg">Leather Left Leg</option>
+                                <option value="Leather Right Leg">Leather Right Leg</option>
+                                <option value="Sturdy Leather Chest Piece">Sturdy Leather Chest Piece</option>
+                                <option value="Sturdy Leather Left Arm">Sturdy Leather Left Arm</option>
+                                <option value="Sturdy Leather Right Arm">Sturdy Leather Right Arm</option>
+                                <option value="Sturdy Leather Left Leg">Sturdy Leather Left Leg</option>
+                                <option value="Sturdy Leather Right Leg">Sturdy Leather Right Leg</option>
+                                <option value="Heavy Leather Chest Piece">Heavy Leather Chest Piece</option>
+                                <option value="Heavy Leather Left Arm">Heavy Leather Left Arm</option>
+                                <option value="Heavy Leather Right Arm">Heavy Leather Right Arm</option>
+                                <option value="Heavy Leather Left Leg">Heavy Leather Left Leg</option>
+                                <option value="Heavy Leather Right Leg">Heavy Leather Right Leg</option>
+                                <option value="Metal Chest Piece">Metal Chest Piece</option>
+                                <option value="Metal Left Arm">Metal Left Arm</option>
+                                <option value="Metal Right Arm">Metal Right Arm</option>
+                                <option value="Metal Left Leg">Metal Left Leg</option>
+                                <option value="Metal Right Leg">Metal Right Leg</option>
+                                <option value="Sturdy Metal Chest Piece">Sturdy Metal Chest Piece</option>
+                                <option value="Sturdy Metal Left Arm">Sturdy Metal Left Arm</option>
+                                <option value="Sturdy Metal Right Arm">Sturdy Metal Right Arm</option>
+                                <option value="Sturdy Metal Left Leg">Sturdy Metal Left Leg</option>
+                                <option value="Sturdy Metal Right Leg">Sturdy Metal Right Leg</option>
+                                <option value="Heavy Metal Chest Piece">Heavy Metal Chest Piece</option>
+                                <option value="Heavy Metal Left Arm">Heavy Metal Left Arm</option>
+                                <option value="Heavy Metal Right Arm">Heavy Metal Right Arm</option>
+                                <option value="Heavy Metal Left Leg">Heavy Metal Left Leg</option>
+                                <option value="Heavy Metal Right Leg">Heavy Metal Right Leg</option>
+                                <option value="Combat Chest Piece">Combat Chest Piece</option>
+                                <option value="Combat Left Arm">Combat Left Arm</option>
+                                <option value="Combat Right Arm">Combat Right Arm</option>
+                                <option value="Combat Left Leg">Combat Left Leg</option>
+                                <option value="Combat Right Leg">Combat Right Leg</option>
+                                <option value="Sturdy Combat Chest Piece">Sturdy Combat Chest Piece</option>
+                                <option value="Sturdy Combat Left Arm">Sturdy Combat Left Arm</option>
+                                <option value="Sturdy Combat Right Arm">Sturdy Combat Right Arm</option>
+                                <option value="Sturdy Combat Left Leg">Sturdy Combat Left Leg</option>
+                                <option value="Sturdy Combat Right Leg">Sturdy Combat Right Leg</option>
+                                <option value="Heavy Combat Chest Piece">Heavy Combat Chest Piece</option>
+                                <option value="Heavy Combat Left Arm">Heavy Combat Left Arm</option>
+                                <option value="Heavy Combat Right Arm">Heavy Combat Right Arm</option>
+                                <option value="Heavy Combat Left Leg">Heavy Combat Left Leg</option>
+                                <option value="Heavy Combat Right Leg">Heavy Combat Right Leg</option>
+                                <option value="Robot Chest Piece">Robot Chest Piece</option>
+                                <option value="Robot Left Arm">Robot Left Arm</option>
+                                <option value="Robot Right Arm">Robot Right Arm</option>
+                                <option value="Robot Left Leg">Robot Left Leg</option>
+                                <option value="Robot Right Leg">Robot Right Leg</option>
+                                <option value="Sturdy Robot Chest Piece">Sturdy Robot Chest Piece</option>
+                                <option value="Sturdy Robot Left Arm">Sturdy Robot Left Arm</option>
+                                <option value="Sturdy Robot Right Arm">Sturdy Robot Right Arm</option>
+                                <option value="Sturdy Robot Left Leg">Sturdy Robot Left Leg</option>
+                                <option value="Sturdy Robot Right Leg">Sturdy Robot Right Leg</option>
+                                <option value="Heavy Robot Chest Piece">Heavy Robot Chest Piece</option>
+                                <option value="Heavy Robot Left Arm">Heavy Robot Left Arm</option>
+                                <option value="Heavy Robot Right Arm">Heavy Robot Right Arm</option>
+                                <option value="Heavy Robot Left Leg">Heavy Robot Left Leg</option>
+                                <option value="Heavy Robot Right Leg">Heavy Robot Right Leg</option>
+                                <option value="Marine Chest Piece">Marine Chest Piece</option>
+                                <option value="Marine Left Arm">Marine Left Arm</option>
+                                <option value="Marine Right Arm">Marine Right Arm</option>
+                                <option value="Marine Left Leg">Marine Left Leg</option>
+                                <option value="Marine Right Leg">Marine Right Leg</option>
+                            </select>
+                        </div>
+
+
+                        <div class="row justify-content-between pb-2">
+                            <label class="col-4" for="caps-value">Caps Value</label>
+                            <input class="col-4" type="number" id="caps-value" name="caps-value" min="1">
+                        </div>
+                        <div class="row justify-content-center">
+                            <button type="submit" class="col col-xl-3 itemBtn mt-3 mx-3 rounded btn-lg btn-outline-dark">Add Armor</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+                
+            
+        </div>
+    </div>
+</section>
+
+<script src="/js/addArmor.js"></script>
